@@ -4,6 +4,8 @@ conda activate fast
 ####关键命令
 export FREESURFER_HOME=/home/cv/app/freesurfer
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
+source /etc/default/locale
+export LC_TIME="en_US.UTF-8"
 
 # export FASTSURFER_HOME=${PWD}
 # weights_sag="$FASTSURFER_HOME/checkpoints/Sagittal_Weights_FastSurferCNN/ckpts/Epoch_30_training_state.pkl"
