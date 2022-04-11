@@ -47,7 +47,7 @@ from data_loader.augmentation import ToTensorTest
 
 from models.networks import FastSurferCNN
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 HELPTEXT = """
 Script to generate aparc.DKTatlas+aseg.deep.mgz using Deep Learning. \n
