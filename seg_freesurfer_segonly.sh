@@ -16,7 +16,7 @@ export LC_TIME="en_US.UTF-8"
 # cuda=""
 # batch_size="1"
 # fastsurfercnndir="$FASTSURFER_HOME/FastSurferCNN"
-fastsurferdir='/home/cv/yb/data/adni_all'
+fastsurferdir='/home/cv/yb/data/fs'
 data='/home/adni/adni/bids/bids'
 dest='/home/data/dateset/ad/Test'
 while read -r line
@@ -42,4 +42,4 @@ do
     # popd
     # cp $path   $dest/$sub'_'$ses/orig.nii.gz
     # mri_convert $temp  $dest/$sub'_'$ses/seg.nii.gz 
-done <'./labels/toy3.txt'
+done <'./labels/t1001-2000.txt'
